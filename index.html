@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
+   
+    <link rel="stylesheet" media=(min-width:320px) href="/css/mobile.css">
+    
+    <title>Portafolio</title>
+</head>
+<body>
+    <header class="header">
+      <span class="btn_menu">
+        <i class="fas fa-bars"></i>
+      </span>
+        
+        <nav class="menu">
+         
+            <ul>
+              <li><a class="menu__item" href="#">Inicio</a></li>
+              <li><a class="menu__item" href="#info">Sobre mi</a></li>
+              <li><a class="menu__item" href="#proyectos">Portafolio</a></li>
+              <li><a class="menu__item" href="#">Contacto</a></li>
+            </ul>
+          </nav>
+          
+          <section class="hero">
+            <img class="hero__img" src="/img/portada2.png" alt="portada">
+            <div class="hero__text">
+              <h1 class="hero__titulo1">Bienvenid@s</h1>
+              <h1 class="hero__titulo2">a mi sitio</h1>
+            </div>
+            <a class="hero__link" href="#">Contacto</a>
+          </section>  
+    </header>
+    <main>
+        <section class="info" id="info">
+          <div class="info__descripcion">
+            <h3>Quien Soy?</h3>
+            <h2>Soy Mauricio Arcila, un apasionado de la tecnología y desarrollador web</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              In inventore molestias modi illo sint minima beatae excepturi earum,
+              ipsum dolores enim voluptas odio eos incidunt porro, blanditiis id laborum dolore.
+            </p>
+
+          </div>
+
+          <div class="info__skills">
+            <div class="skill__title">
+              <h3>Mis habilidades:</h3>
+            </div>
+              <div class="skill__item">
+                <div>
+                  <img class="skill__img" src="/img/html5.png" alt="html5">
+                  <h1 class="skill__name">HTML</h1>
+                </div> 
+                <div>
+                  <img class="skill__img" src="/img/css-3.png" alt="html5">
+                  <h1 class="skill__name">CSS3</h1>
+                </div>
+                <div>
+                  <img class="skill__img" src="/img/js.png" alt="html5">
+                  <h1 class="skill__name">JAVASCRIPT</h1>
+                </div>
+                <div>
+                  <img class="skill__img" src="/img/angular.png" alt="html5">
+                  <h1 class="skill__name">ANGULAR</h1>
+                </div> 
+                <div>
+                  <img class="skill__img" src="/img/git.png" alt="html5">
+                  <h1 class="skill__name">GIT</h1>
+                </div>
+                <div>
+                  <img class="skill__img" src="/img/react.png" alt="html5">
+                  <h1 class="skill__name">REACT</h1>
+                </div>
+                
+              </div>
+            </div>
+        </section>
+        <section class="proyectos" id="proyectos">
+          <h1>Proyectos</h1>
+           <div class="card">
+             <img src="/img/img.jpg" class="card_img" alt="proyecto">
+             <div class="card_cont">
+              <h1>titulo</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+               <a href="#">Ver Proyecto</a>
+             </div>
+           </div>
+           <div class="card">
+            <img src="/img/img.jpg" class="card_img" alt="proyecto">
+            <div class="card_cont">
+              <h1>titulo</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/img/img.jpg" class="card_img" alt="proyecto">
+            <div class="card_cont">
+              <h1>titulo</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>  
+        </section>
+    </main>
+    <footer>
+      <div>
+        <p>diseñado por</p>
+      </div>
+    </footer>
+    <script src="./js/menu_hamburguesa.js"></script>
+</body>
+</html>

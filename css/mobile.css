@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+:root{
+    --color-fondo: #eceff1;
+    --color-boton:#fb8c00;
+    --color-blanco: white;
+    --color-anburger:hsla(0, 0%, 0%, 0.938);
+    --color-texto:#000000;
+}
+
+.header{
+    height: auto;
+    width: 100%; 
+  
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-anburger);
+    font-size: 30px;   
+    transform: translateX(-100%);
+    display: flex;
+    justify-content: center; 
+
+}
+.menu__item, li{
+    list-style:none;
+    color: var(--color-blanco);
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%; 
+    
+}
+
+.enlace{
+    transform: translateX(0%);
+}
+ 
+.hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.hero__img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px ;
+}
+.hero__link {
+    text-decoration: none;
+    background-color: var(--color-boton) ;
+    color: var(--color-blanco);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+       
+}
+.btn_menu{
+  position: fixed;
+  font-size: 35px;
+  margin-left: 6px;
+ 
+  
+}
+
+
+.info {
+    width: 100%;
+    background-color: var(--color-fondo);
+    line-height: 40px;
+    text-align: left;
+    padding: 20px;
+    color: var(--color-texto);
+    
+    
+}
+.info__descripcion h2{
+    padding: 5px;
+    font-weight: bold;
+   
+}
+
+.info__descripcion p{
+
+    text-align: left;
+   
+}
+ .skill__item{
+    
+     padding: 5px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr ;
+     column-gap: 10px;
+     row-gap: 15px;
+     text-align: center;
+        
+ }
+ .skill__img{
+    width: 90%;
+    height: auto;
+    
+    
+ } 
+ .skill__name{
+     font-size: 15px;
+ } 
+.proyectos{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 90%;
+    margin-top: 20px;
+    background: var(--color-blanco);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card_cont{
+    padding: 20px;
+}
+.card_img{
+    width: 100%;
+    height: auto;   
+}
+footer{
+    width: 100%;
+    background: #bbdefb;
+}
+
+
+
+
+
+
+
+
+
+
+
